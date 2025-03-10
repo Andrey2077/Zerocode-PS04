@@ -55,7 +55,7 @@ def proceed_actions(articles = None, paragraphs = None):
             time.sleep(3)
             proceed_actions(articles, None)
     else:
-        print("Не верно выбран вариант действия")
+        print("Выход")
         return
     # browser.getlink()
 
